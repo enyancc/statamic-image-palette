@@ -20,7 +20,7 @@ We have made things easy for you start. Here is the three steps your need to fol
 
 
 2. **Generate palette for existing assets.**
-   If you already started uploading assets, it is very easy to add palette `php please imagepalette:generate` to
+   If you already started uploading assets, it is very easy to add palette, run `php please imagepalette:generate`.
 
 3. **Use it.**
     Access palette colors in your antlers templates using `{{ asset:palette }}` iterator
@@ -30,5 +30,5 @@ We have made things easy for you start. Here is the three steps your need to fol
 
 ## Changelog
 
-**V1.0.0**
-🚀 Launching this awesome fieldtype to every country.
+**1.0.0**
+🚀 Initial release.
