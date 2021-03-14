@@ -1,0 +1,44 @@
+{
+    "name": "enyancc/image-palette",
+    "keywords": [
+        "Statamic",
+        "Image",
+        "palette",
+        "colors"
+    ],
+    "type": "statamic-addon",
+    "homepage": "https://enyan.cc",
+    "authors": [
+        {
+            "name": "Sergii",
+            "email": "hello@enyan.cc",
+            "role": "Developer"
+        }
+    ],
+    "support": {
+        "email": "hello@enyan.cc"
+    },
+    "description": "Extracts colors from an image and generates a color palette.",
+    "license": "proprietary",
+    "autoload": {
+        "psr-4": {
+            "enyancc\\ImagePalette\\": "src"
+        }
+    },
+    "extra": {
+        "statamic": {
+            "name": "Image palette",
+            "description": "Extend image metadata with a color palette"
+        },
+        "laravel": {
+            "providers": [
+                "enyancc\\ImagePalette\\ServiceProvider"
+            ]
+        }
+    },
+    "require": {
+        "php": ">=7.3",
+        "ext-gd": "*",
+        "ksubileau/color-thief-php": "^1.4"
+    }
+}
