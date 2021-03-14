@@ -25,12 +25,4 @@ class BlueprintFieldsListener
         ], 'palette');
     }
 
-    /**
-     * Add SEO section and fields to blueprint.
-     */
-    public function addSeoFields()
-    {
-
-        // $this->blueprint
-    }
 }
